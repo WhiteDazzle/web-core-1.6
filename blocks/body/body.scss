@@ -1,0 +1,10 @@
+.body {
+    margin: 0;
+    font-family: 'TT Lakes regular';
+    font-weight: normal;
+    background-color: $bgPageColor;
+    overflow-x: hidden;
+    @media (min-width: 1300.97px) {
+        display: flex;
+    }
+}

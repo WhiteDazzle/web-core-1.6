@@ -1,0 +1,47 @@
+.button-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $bgButton;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    cursor:pointer; 
+    &:hover{
+        transform: scale(1.1);
+        opacity: 50%;
+        transition: 500ms;
+    }
+
+    &--feed-back {
+        background-image: url(../img/chat.svg);
+    }
+
+    &--check-status {
+        background-image: url(../img/check-status.svg);
+    }
+
+    &--close {
+        background-image: url(../img/button-close.svg);
+    }
+
+    &--call-back {
+        background-image: url(../img/call.svg);
+    }
+    
+    &--profile {
+        background-image: url(../img/profile.svg);
+    }
+
+    &--repair {
+        background-image: url(../img/repair.svg);
+    }
+
+    &--search{
+        background-image: url(../img/search.svg);
+    } 
+    &--left-menu{
+        background-image: url(../img/left-menu.svg);
+    }   
+
+}

@@ -1,0 +1,50 @@
+.company-description {
+    margin-top: 24px;
+    margin-right: 16px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    @media (min-width: 671.99px) {
+        margin-top: 32px;
+        margin-right: 24px;
+    }
+
+    @media (min-width: 1300.97px) {
+        margin-right: 32px;
+    }
+    
+    &__text {
+        width: 320px;
+        flex-grow: 1; 
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: $TextColor;
+    }
+    &__text-container {
+        height: 110px;
+        overflow: hidden;
+        &--full {
+            height: auto;
+        }
+    }
+    &__img {
+        flex-grow: 1;  
+        @media (max-width: 671.98px) {
+            margin-top: 16px;
+        }
+        @media (min-width: 671.99px) {
+            margin-left: 35px;
+            border-radius: 6px;
+        }
+    }
+
+    &__button-full-open--hidden,
+    &__button-full-close--hidden {
+        display: none !important;
+    }
+
+}

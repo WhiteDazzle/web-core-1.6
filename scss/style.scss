@@ -1,0 +1,62 @@
+$bgPageColor: #F2F2F2;
+$bgDividersColor: #EAEAEA;
+$bgElementColor: #FFFFFF;
+$bgMainColor: #F8F8F8;
+$TextColor: #1B1C21;
+$SectionTitleColor: #7E7E82;
+$bgButton: #FF3E79;
+$BorderPopup: #D9FFF5;
+$bghighlightColor: #41F6D7;
+$BorderElemcolor: #B8FFEC;
+$BorderSectionElem: #EAEAEA;
+
+@import '../blocks/body/body.scss';
+@import '../blocks/company-description/company-description.scss';
+@import '../blocks/header/header.scss';
+@import '../blocks/button-lang/button-lang.scss';
+@import '../blocks/left-menu/left-menu.scss';
+@import '../blocks/main/main.scss';
+@import '../blocks/nav-links/nav-links.scss';
+@import '../blocks/page/page.scss';
+@import '../blocks/page-nav/page-nav.scss';
+@import '../blocks/repair-brands/repair-brands.scss';
+@import '../blocks/swiper-pagination/swiper-pagination.scss';
+@import '../blocks/button-read/button-read.scss';
+@import '../blocks/repair-devices/repair-devices.scss';
+@import '../blocks/services-price/services-price.scss';
+@import '../blocks/button-offer/button-offer.scss';
+@import '../blocks/page-footer/page-footer.scss';
+@import '../blocks/right-popup/right-popup.scss';
+@import '../blocks/button-menu/button-menu.scss';
+@import '../blocks/button-action/button-action.scss';
+@import '../blocks/title/title.scss';
+
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: url('../fonts/TTLakes-Regular.woff');
+    src: url('../fonts/TTLakes-Regular.woff') format('embedded-opentype'),
+    url('../fonts/TTLakes-Regular.woff') format('woff'),
+    url('../fonts/TTLakes-Regular.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'TT Lakes medium';
+    src: url('../fonts/TTLakes-Medium.woff');
+    src: url('../fonts/TTLakes-Medium.woff') format('embedded-opentype'),
+    url('../fonts/TTLakes-Medium.woff') format('woff'),
+    url('../fonts/TTLakes-Medium.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+@font-face {
+    font-family: 'TT Lakes bolt';
+    src: url('../fonts/TTLakes-Bold.woff');
+    src: url('../fonts/TTLakes-Bold.woff') format('embedded-opentype'),
+    url('../fonts/TTLakes-Bold.woff') format('woff'),
+    url('../fonts/TTLakes-Bold.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

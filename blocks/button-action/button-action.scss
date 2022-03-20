@@ -1,0 +1,41 @@
+.button-action {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    font-family: 'TT Lakes medium';
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    color: white;
+    background: $bgButton;
+    border-radius: 16px;
+    border: none; 
+    text-align: left;
+    cursor:pointer; 
+    &:hover{
+        transform: scale(1.1);
+        opacity: 50%;
+        transition: 500ms;
+    }
+    &__right-arrow {
+        width: 24px;
+        height: 24px;
+        background-image: url('../img/right-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center center;  
+        width: 20px;
+        height: 20px;
+    }
+
+    &--order {
+        width: 119px;  
+    }
+
+    &--submit {
+        width: 136px;
+    }
+}
+
